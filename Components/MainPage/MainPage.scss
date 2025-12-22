@@ -1,0 +1,90 @@
+.MainWrapper {
+  width: 100%;
+  height: 45vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: white;
+  text-shadow: 0 3px 3px #0074e0;
+  .leftContainer {
+    height: 90%;
+    width: 50%;
+    border-radius: 10px;
+    background-color: #fafafac0;
+    box-shadow: 2px 2px 2px 2px rgba(0, 0, 0, 0.3);
+
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    justify-content: space-evenly;
+    text-align: center;
+
+    .link {
+      .buttonOrange {
+        cursor: pointer;
+        border: none;
+        border-radius: 10px;
+        padding: 30px;
+        background-color: orange;
+        color: var(--background);
+        font-weight: bold;
+        font-size: 20px;
+      }
+      .buttonOrange:hover {
+        filter: brightness(70%);
+        transform: scale(1.05);
+      }
+    }
+    .socialIcons {
+      width: 100%;
+      display: flex;
+      justify-content: space-evenly;
+    }
+    .Icons:hover {
+      transform: scale(1.1);
+      filter: brightness(70%);
+    }
+  }
+
+  @media screen and (max-width: 769px) {
+    background-image: url("/limpieza_Azul.jpg");
+    background-size: cover;
+    align-items: start;
+    .leftContainer {
+      width: 55%;
+      height: 55%;
+      margin-top: 2%;
+
+      h1 {
+        font-size: 20px;
+      }
+      h2 {
+        padding: 5%;
+        font-size: 15px;
+      }
+      .link {
+        .buttonOrange {
+          padding: 10px;
+          font-size: 15px;
+        }
+      }
+      .socialIcons {
+        width: 100%;
+        display: flex;
+        justify-content: space-evenly;
+
+        .Icons {
+          height: 25px;
+          width: 25px;
+        }
+      }
+    }
+  }
+  @media screen and (max-width: 426px) {
+    background-image: url("/limpieza_Azul.jpg");
+    background-size: contain;
+    background-repeat: no-repeat;
+    align-items: start;
+  }
+}
