@@ -4,25 +4,26 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  background-color: var(--background) !important;
+  background-color: #2f4698;
   .NameLogo,
   .RightLogo {
     text-align: center;
     display: flex;
     justify-content: space-evenly;
-    color: #0074e0;
+    color:  white;
     h4 {
-      font-size: 18px;
+      font-size: 22px;
       font-style: italic;
       letter-spacing: 1px;
     }
     p {
-      font-size: 20px;
+      font-size: 18px;
     }
   }
 
   .NameLogo {
     width: 20%;
+    
   }
 
   .RightLogo {
@@ -46,7 +47,7 @@
         font-size: 12px;
       }
       h4 {
-        font-size: 15px;
+        font-size: 18px;
       }
     }
     .RightLogo {

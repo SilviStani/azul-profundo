@@ -8,13 +8,6 @@ const NavBar = () => {
   return (
     <nav className="navBarMain">
       <div className="NameLogo">
-        <Image
-          className="logoPpal"
-          src={"/gorra.png"}
-          alt="limpieza de piscinas"
-          height={40}
-          width={40}
-        />
         <div className="logoTextContainer">
           <Link href={"/"}>
             <h4>Azul Profundo</h4>
