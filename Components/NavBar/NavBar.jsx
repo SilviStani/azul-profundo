@@ -16,23 +16,15 @@ const NavBar = () => {
         </div>
       </div>
       <div className="RightLogo">
-        {/*
         {NavBarData.map((e) => (
-          <Link id={e.id} href={e.hrefUrl} target="_blank" key={e.title}>
-            {e.src ? (
-              <Image
-                className="Icons"
-                src={e.srcMobile}
-                alt={e.title}
-                height={35}
-                width={35}
-              />
-            ) : (
-              <p>{e.title}</p>
-            )}
+          <Link 
+          id={e.id} 
+          href={e.hrefUrl} 
+          target="_blank" 
+          key={e.title}>
+            {<p>{e.title}</p>}
           </Link>
         ))}
-              */}
       </div>
     </nav>
   );

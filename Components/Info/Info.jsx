@@ -1,4 +1,5 @@
-import React from "react";
+"use client";
+import { React, useEffect } from "react";
 import "./Info.scss";
 import { InfoData } from "./InfoData";
 import Link from "next/link";

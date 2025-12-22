@@ -29,6 +29,7 @@
   .RightLogo {
     width: 70%;
     justify-content: end;
+    justify-content: space-evenly;
 
     .Icons {
       display: none;
@@ -53,7 +54,8 @@
     .RightLogo {
       width: 50%;
       justify-content: end;
-      margin-right: 5%;
+      justify-content: space-around;
+     
       p {
         font-size: 15px;
       }
