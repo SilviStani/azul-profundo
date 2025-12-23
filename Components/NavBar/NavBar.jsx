@@ -20,7 +20,6 @@ const NavBar = () => {
           <Link 
           id={e.id} 
           href={e.hrefUrl} 
-          target="_blank" 
           key={e.title}>
             {<p>{e.title}</p>}
           </Link>
