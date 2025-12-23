@@ -64,9 +64,18 @@
     display: flex;
     flex-direction: column;
     justify-content: space-evenly;
+    h1{
+      font-size: 23px;
+    }
     .card {
       height: 10rem;
       margin-bottom: 10%;
+      h3{
+       font-size: 18px; 
+      }
+      p{
+        font-size: 13px;
+      }
     }
   }
 }

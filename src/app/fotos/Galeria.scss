@@ -11,6 +11,13 @@
     width: 100%;
     height: auto;
 
+    h1{
+       background-image: url("/piscina.jpg");
+       background-size: cover;
+       background-repeat: no-repeat;
+       padding: 10px;
+       color: white;
+    }
     .imagen {
       transition: all 0.5s ease-in-out;
       box-shadow: 0 4px 10px rgba(0, 0, 0, 0.7);

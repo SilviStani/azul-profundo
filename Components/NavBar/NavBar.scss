@@ -23,7 +23,9 @@
 
   .NameLogo {
     width: 20%;
-    
+    .logoTextContainer{
+      display: flex;
+    }
   }
 
   .RightLogo {
@@ -41,8 +43,8 @@
     .NameLogo {
       width: 50%;
       .logoPpal {
-        height: 25px;
-        width: 25px;
+        height: 30px;
+        width: 30px;
       }
       p {
         font-size: 12px;
@@ -57,7 +59,7 @@
       justify-content: space-around;
      
       p {
-        font-size: 15px;
+        font-size: 12px;
       }
       .Icons {
         display: none;
